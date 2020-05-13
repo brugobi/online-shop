@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.backgroundGrayDark {
+  background-color: #383838;
+}
+
+.pinkcolor {
+  color: #d35266;
+}
+
+.backgroundPink {
+  background-color: #d35266;
+}
+
+.graylightColor {
+  color: #888;
+}
+
+.grayDarkColor {
+  color: #383838;
+}
+
+.whitecolor {
+  color: white;
+}
+
+.btn-post-ad {
+  border: solid 1px #d35266;
+  border-radius: 5px;    
+}
+
+.main-search {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 360px;
+}
+
+.departament {
+  display: flex;
+  justify-content: center;
+  margin-bottom: auto;
+  background-color: aqua;
+}
+
+.main-tittle {
+  margin: auto;
+  background-color: aqua;
+}
+
+.btn-search {
+  width: 80px;
+  height: 35px;
+  margin-left: 15px;
+  border: solid 1px #383838;
+}

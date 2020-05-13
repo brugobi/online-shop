@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.wrap {
+  width: 1440px;
+}
+
 @font-face {
   font-family: "Gotham Bold";    src: url(../stylesheet/fonts/gotham-bold.otf);   
 }
@@ -130,5 +134,65 @@
 
 .ads-container {
   margin-top: 20px;
+}
+
+.iconSize {
+  font-size: 25px;
+}
+
+.fonteSize18 {
+  font-size: 18px;
+}
+
+.gamesImages {
+  width: 249px;
+}
+
+.game-information {
+  padding: 10px;
+}
+
+.card-container {
+  width: 260px;
+  height: 410px;
+  border: solid 1px #888;
+  background-color: white;
+  border-radius: 2px;
+  margin-left: 18px;
+}
+
+.products {
+  background-color: rgb(244, 244, 244);
+  padding-top: 50px;
+}
+
+.game-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.category-container {
+  padding-top: 35px;
+  width: 1440px;
+  background-color: aqua;
+}
+
+i.fa-plus {
+  border: solid 1px;
+  width: 25px;
+  height: 25px;
+  padding: 3px;
+}
+
+.section-games {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-header {
+  border-bottom: solid 1px #888;
+  padding-bottom: 5px;
+  background-color: #d35266;
 }
 

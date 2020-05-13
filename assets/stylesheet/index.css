@@ -6,6 +6,26 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Gotham Bold";    src: url(../stylesheet/fonts/gotham-bold.otf);   
+}
+
+@font-face {
+  font-family: "Gotham Round";    src: url(../stylesheet/fonts/gotham-rounded-light.otf);   
+}
+
+@font-face {
+  font-family: "Helvetica Light";    src: url(../stylesheet/fonts/helvetica-neue-light.ttf);   
+}
+
+@font-face {
+  font-family: "Helvetica Medium";    src: url(../stylesheet/fonts/helveticaneue-medium.ttf);   
+}
+
+@font-face {
+  font-family: "Helvetica Bold";    src: url(../stylesheet/fonts/helvetica-neue-bold.ttf);   
+}
+
 .backgroundGrayDark {
   background-color: #383838;
 }
@@ -30,9 +50,29 @@
   color: white;
 }
 
+.fontGotham-Bold {
+  font-family: "Gotham Bold", Arial, Helvetica, sans-serif;
+}
+
+.fontGotham-Round {
+  font-family: "Gotham Round", Arial, Helvetica, sans-serif;
+}
+
+.fontHelvetica-Light {
+  font-family: "Helvetica Light", Arial, Helvetica, sans-serif;
+}
+
+.fontHelvetica-Medium {
+  font-family: "Helvetica Medium", Arial, Helvetica, sans-serif;
+}
+
+.fontHelvetica-Bold {
+  font-family: "Helvetica Bold", Arial, Helvetica, sans-serif;
+}
+
 .btn-post-ad {
   border: solid 1px #d35266;
-  border-radius: 5px;    
+  border-radius: 2px;    
 }
 
 .main-search {
@@ -60,3 +100,35 @@
   margin-left: 15px;
   border: solid 1px #383838;
 }
+
+.btn-hot-price {
+  width: 50px;
+}
+
+.btn-hot-list {
+  width: 180px;
+}
+
+.icon-less {
+  display: flex;
+  justify-content: space-around;  
+  height: 300px;
+  width: 43px;
+}
+
+.icon-less a {
+  text-decoration: none;
+  color: #d35266;
+  font-size: 40px;
+  margin-top: 100px;
+}
+
+.ads-card {  
+  background-color: aqua;
+  width: 800px;
+}
+
+.ads-container {
+  margin-top: 20px;
+}
+

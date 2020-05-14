@@ -269,7 +269,6 @@ i.fa-plus {
   flex-direction: row;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: 50px;
 }
 
 .footer-text {
@@ -385,6 +384,23 @@ i.fa-plus {
 
 div.card-game-information:hover {
   background-color: white;
+}
+
+.numbers-of-page {
+  background-color: rgb(244, 244, 244);
+  height: 120px;
+}
+
+.numbers-of-page span:hover {
+  background-color: #d35266;
+}
+
+.number {
+  width: 30px;
+  height: 30px;
+  border: solid 1px #888;
+  padding-left: 8px;
+  margin-right: 10px;
 }
 
 .footer-text-search {

@@ -83,7 +83,29 @@
   border-radius: 2px;    
 }
 
+.header-dark {
+  display: flex;
+  height: 50px;
+}
+
+.header-dark div {
+  align-self: center;
+}
+
+.header-dark-left {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.header-dark-right {
+  display: flex;
+  justify-content: space-around;
+  width: 10%;
+}
+
 .main-search {
+  background-image: url(../images/backgroungImg.png);
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -94,12 +116,36 @@
   display: flex;
   justify-content: center;
   margin-bottom: auto;
-  background-color: aqua;
+}
+
+.departament input {
+  width: 240px;
+}
+
+.departament a {
+  text-decoration: none;
+  color: #888;
+}
+
+.departament a:hover {
+  color: #d35266;
 }
 
 .main-tittle {
-  margin: auto;
-  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-items: center;
+  margin: auto 0;
+}
+
+.main-tittle h1 {
+  align-self: center;
+  font-size: 90px;
+}
+
+.main-tittle p {
+  align-self: center;
 }
 
 .btn-search {
@@ -120,7 +166,6 @@
 .icon-less {  
   height: 298px;
   width: 43px;
-  background-color: aqua;
 }
 
 .icon-less a {
@@ -133,7 +178,6 @@
 }
 
 .ads-card {  
-  background-color: aqua;
   width: 800px;
 }
 

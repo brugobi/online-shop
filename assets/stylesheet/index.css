@@ -363,11 +363,28 @@ i.fa-plus {
   padding-top: 20px;
   width: 210px;
   border-right: solid 1px #888;
+  background-color: rgb(244, 244, 244);
 }
 
 .asideForm p {
   border-bottom: solid 1px #888;
   padding-top: 5px;
+}
+
+.card-game {
+  padding-left: 30px;
+  padding-top: 20px;
+  background-color: rgb(245, 245, 245);
+}
+
+.card-game-information {
+  max-width: 1200px;
+  padding-left: 30px;
+  background-color: rgb(245, 245, 245);
+}
+
+div.card-game-information:hover {
+  background-color: white;
 }
 
 .footer-text-search {

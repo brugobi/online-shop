@@ -83,12 +83,12 @@
   border-radius: 2px;    
 }
 
-.header-dark {
+.header-dark-desktop {
   display: flex;
   height: 50px;
 }
 
-.header-dark div {
+.header-dark-desktop div {
   align-self: center;
 }
 
@@ -102,6 +102,14 @@
   display: flex;
   justify-content: space-around;
   width: 10%;
+}
+
+.header-dark-mobile {
+  display: none;
+}
+
+.header-dark-mobile button {
+  height: 30px;
 }
 
 .main-search {
@@ -220,12 +228,6 @@
   justify-content: space-between;
 }
 
-.category-container {
-  padding-top: 35px;
-  width: 1440px;
-  background-color: aqua;
-}
-
 i.fa-plus {
   border: solid 1px;
   width: 25px;
@@ -306,5 +308,20 @@ i.fa-plus {
 
 .fontSize13 {
   font-size: 12px;
+}
+
+/* ###############################################-----MEDIA QUERY----############################################### */
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+
+@media (max-width: 767px) {
+  .header-dark-mobile {
+    display: flex;
+    height: 50px;
+  }
+
+  .header-dark-desktop {
+    display: none;
+  }
 }
 

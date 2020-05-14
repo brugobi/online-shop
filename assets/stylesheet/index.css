@@ -100,8 +100,12 @@
 
 .header-dark-right {
   display: flex;
-  justify-content: space-around;
-  width: 10%;
+  justify-content: flex-end;
+  width: 20%;
+}
+
+.icon {
+  padding-left: 5px;
 }
 
 .header-dark-mobile {
@@ -316,6 +320,38 @@ i.fa-plus {
 
 .home:hover {
   color: #d35266;
+}
+
+.search-tittle h1 {
+  align-self: center;
+  font-size: 50px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.search-tittle p {
+  align-self: center;
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.main-search2 {
+  background-image: url(../images/backgroungImg.png);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 260px;
+}
+
+.search-tittle p {
+  align-self: flex-start;
+}
+
+.departament2 {
+  display: flex;
+  align-self: flex-start;
+  font-size: 20px;
+  padding-left: 30px;
 }
 
 .footer-text-search {

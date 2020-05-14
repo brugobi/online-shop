@@ -54,6 +54,10 @@
   color: white;
 }
 
+.backgrounWhite {
+  background-color: white;
+}
+
 .fontGotham-Bold {
   font-family: "Gotham Bold", Arial, Helvetica, sans-serif;
 }
@@ -113,18 +117,19 @@
   width: 180px;
 }
 
-.icon-less {
-  display: flex;
-  justify-content: space-around;  
-  height: 300px;
+.icon-less {  
+  height: 298px;
   width: 43px;
+  background-color: aqua;
 }
 
 .icon-less a {
+  display: flex;
+  justify-content: center;
   text-decoration: none;
   color: #d35266;
   font-size: 40px;
-  margin-top: 100px;
+  background-color: black;
 }
 
 .ads-card {  
@@ -194,5 +199,69 @@ i.fa-plus {
   border-bottom: solid 1px #888;
   padding-bottom: 5px;
   background-color: #d35266;
+}
+
+.footer-left {
+  width: 70%;
+}
+
+.footer-right {
+  width: 30%;
+}
+
+.categories-tittle {
+  border-bottom: solid 1px #d35266;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 33%;
+}
+
+.footer-text p {
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.categories-items {
+  width: 50%;
+  padding-top: 5px;
+}
+
+.categories p {
+  line-height: 1px;
+}
+
+.borderGray {
+  border-top: solid 1px #888;
+}
+
+.borderRightGray {
+  border-right: solid 1px #888;
+}
+.copyRight p {
+  display: flex;
+  padding-top: 10px;
+  align-self: center;
+  justify-content: space-around;
+}
+
+.fontSize13 {
+  font-size: 12px;
 }
 

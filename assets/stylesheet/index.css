@@ -201,9 +201,6 @@
   font-size: 18px;
 }
 
-.gamesImages {
-  width: 249px;
-}
 
 .game-information {
   padding: 10px;
@@ -308,6 +305,42 @@ i.fa-plus {
 
 .fontSize13 {
   font-size: 12px;
+}
+
+/* ###############################################-----SEARCH PAGE----############################################### */
+
+.home {
+  text-decoration: none;
+  color: #888;
+}
+
+.home:hover {
+  color: #d35266;
+}
+
+.footer-text-search {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.navigation {
+  width: 15%;
+  margin-left: 2.5%;
+}
+
+.categories-search {
+  width: 25%;
+  margin-left: 2.5%;
+}
+
+.canada {
+  width: 139px;
+  height: 29px;
+  border: solid 1px #888;
+  padding: 2px;
 }
 
 /* ###############################################-----MEDIA QUERY----############################################### */

@@ -158,12 +158,11 @@
 }
 
 .card-container {
-  width: 260px;
   height: 410px;
   border: solid 1px #888;
   background-color: white;
   border-radius: 2px;
-  margin-left: 18px;
+  margin-top: 20px;
 }
 
 .products {

@@ -13,7 +13,7 @@ This project is about building a webpage based on an online shop for electronics
 
 ## mobile version (main page and search page)
 
-![screenshot](./assets/imgages/mobile-main.png)
+![screenshot](./assets/images/mobile-main.png)
 ![screenshot](./assets/images/mobile-search.png)
 
 ## Built With

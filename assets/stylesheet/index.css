@@ -11,23 +11,28 @@
 }
 
 @font-face {
-  font-family: "Gotham Bold";    src: url(../stylesheet/fonts/gotham-bold.otf);   
+  font-family: "Gotham Bold";
+  src: url(../stylesheet/fonts/gotham-bold.otf);
 }
 
 @font-face {
-  font-family: "Gotham Round";    src: url(../stylesheet/fonts/gotham-rounded-light.otf);   
+  font-family: "Gotham Round";
+  src: url(../stylesheet/fonts/gotham-rounded-light.otf);
 }
 
 @font-face {
-  font-family: "Helvetica Light";    src: url(../stylesheet/fonts/helvetica-neue-light.ttf);   
+  font-family: "Helvetica Light";
+  src: url(../stylesheet/fonts/helvetica-neue-light.ttf);
 }
 
 @font-face {
-  font-family: "Helvetica Medium";    src: url(../stylesheet/fonts/helveticaneue-medium.ttf);   
+  font-family: "Helvetica Medium";
+  src: url(../stylesheet/fonts/helveticaneue-medium.ttf);
 }
 
 @font-face {
-  font-family: "Helvetica Bold";    src: url(../stylesheet/fonts/helvetica-neue-bold.ttf);   
+  font-family: "Helvetica Bold";
+  src: url(../stylesheet/fonts/helvetica-neue-bold.ttf);
 }
 
 .backgroundGrayDark {
@@ -80,7 +85,7 @@
 
 .btn-post-ad {
   border: solid 1px #d35266;
-  border-radius: 2px;    
+  border-radius: 2px;
 }
 
 .header-dark-desktop {
@@ -139,6 +144,15 @@
   color: #888;
 }
 
+.icon-less a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #d35266;
+  font-size: 40px;
+  background-color: black;
+}
+
 .departament a:hover {
   color: #d35266;
 }
@@ -177,21 +191,12 @@
   width: 180px;
 }
 
-.icon-less {  
+.icon-less {
   height: 298px;
   width: 43px;
 }
 
-.icon-less a {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  color: #d35266;
-  font-size: 40px;
-  background-color: black;
-}
-
-.ads-card {  
+.ads-card {
   width: 800px;
 }
 
@@ -206,7 +211,6 @@
 .fonteSize18 {
   font-size: 18px;
 }
-
 
 .game-information {
   padding: 10px;
@@ -301,6 +305,7 @@ i.fa-plus {
 .borderRightGray {
   border-right: solid 1px #888;
 }
+
 .copyRight p {
   display: flex;
   padding-top: 10px;
@@ -338,7 +343,7 @@ i.fa-plus {
 }
 
 .search-tittle p {
-  align-self: center;
+  align-self: flex-start;
   font-size: 20px;
   padding-left: 30px;
 }
@@ -349,15 +354,10 @@ i.fa-plus {
   flex-flow: column;
   justify-content: center;
   height: 260px;
-  
 }
 
 .main-search-mobile {
   display: none;
-}
-
-.search-tittle p {
-  align-self: flex-start;
 }
 
 .departament2 {
@@ -446,7 +446,6 @@ div.card-game-information:hover {
   padding: 2px;
 }
 
-
 /* ###############################################-----MEDIA QUERY----############################################### */
 
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
@@ -489,8 +488,4 @@ div.card-game-information:hover {
   .main-search {
     display: none;
   }
-
-  
-
 }
-

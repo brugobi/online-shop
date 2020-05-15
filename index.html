@@ -13,27 +13,26 @@
     <body>
         <div class="wrap">
             <header class="header1">
-                <nav class="header-dark-desktop backgroundGrayDark">
+                <nav class="header-dark-desktop backgroundGrayDark header-fixed">
                     <div class="header-dark-left">
-                        <i class="fa fa-cubes pinkcolor" aria-hidden="true"><span class="whitecolor fontGotham-Bold">FAST FUN</span></i>
-                        <i class="fa fa-home graylightColor" aria-hidden="true"><span class="graylightColor fontGotham-Bold">HOME</span></i>
-                        <i class="fa fa-th-large graylightColor" aria-hidden="true"><span class="graylightColor fontGotham-Bold">COLLECTIONS</span></i>
-                        <i class="fa fa-shopping-cart graylightColor" aria-hidden="true"><span class="graylightColor fontGotham-Bold">PURCHASE LIST</span></i>
+                        <i class="fa fa-cubes pinkcolor" aria-hidden="true"><span class="whitecolor fontGotham-Bold icon">FAST FUN</span></i>
+                        <i class="fa fa-home graylightColor" aria-hidden="true"><span class="graylightColor fontGotham-Bold icon"><a href="index.html" class="home">HOME</a></span></i>
+                        <i class="fa fa-th-large graylightColor" aria-hidden="true"><span class="graylightColor fontGotham-Bold icon">COLLECTIONS</span></i>
+                        <i class="fa fa-shopping-cart graylightColor" aria-hidden="true"><span class="graylightColor fontGotham-Bold icon">PURCHASE LIST</span></i>
                         <button class="btn-post-ad backgroundPink"><span class="whitecolor fontGotham-Bold">POST AN AD</span></button>
                     </div>
                     <div class="header-dark-right">
-                        <i class="fa fa-envelope graylightColor" aria-hidden="true"></i>
-                        <i class="fa fa-user-circle-o graylightColor" aria-hidden="true"><span class="graylightColor fontGotham-Bold">Bruna</span></i>
+                        <i class="fa fa-envelope graylightColor" style="padding-right: 5px;" aria-hidden="true"></i>
+                        <i class="fa fa-user-circle-o graylightColor"  aria-hidden="true"><span class="graylightColor fontGotham-Bold icon">Bruna</span></i>
                     </div>
                 </nav>
-            </header>    
-            <header>
                 <nav class="header-dark-mobile backgroundGrayDark">
-                    <i class="fa fa-cubes pinkcolor" aria-hidden="true"><span class="whitecolor fontGotham-Bold">FAST FUN</span></i>
-                    <i class="fa fa-home graylightColor" aria-hidden="true"><span class="graylightColor fontGotham-Bold">HOME</span></i>
-                    <i class="fa fa-th-large graylightColor" aria-hidden="true"><span class="graylightColor fontGotham-Bold">COLLECTIONS</span></i>
-                    <i class="fa fa-shopping-cart graylightColor" aria-hidden="true"><span class="graylightColor fontGotham-Bold">PURCHASE LIST</span></i>
-                    <button class="btn-post-ad backgroundPink"><span class="whitecolor fontGotham-Bold">POST AN AD</span></button>
+                    <div class="header-dark-left">
+                        <i class="fa fa-cubes pinkcolor" aria-hidden="true"><span class="whitecolor fontGotham-Bold icon">FAST FUN</span></i>
+                        <i class="fa fa-home graylightColor" aria-hidden="true"><span class="graylightColor fontGotham-Bold"><a href="index.html" class="home icon">HOME</a></span></i>
+                        <i class="fa fa-th-large graylightColor" aria-hidden="true"><span class="graylightColor fontGotham-Bold icon">COLLECTIONS</span></i>
+                        <i class="fa fa-shopping-cart graylightColor" aria-hidden="true"><span class="graylightColor fontGotham-Bold icon">PURCHASE LIST</span></i>
+                    </div>
                 </nav>
             </header>
             <section class="main-search backgroundPink">
@@ -42,9 +41,25 @@
                     <p class="fontHelvetica-Medium whitecolor fonteSize18">Buying and Selling Couldn't be Simpler than this !</p>
                 </div>
                 <form class="departament">
-                    <input class="graylightColor fontHelvetica-Medium" for="departaments" value="All departaments"></input>
-                    <input class="graylightColor fontHelvetica-Medium" for="departaments" value="What do you search for?"></input>
-                    <input class="graylightColor fontHelvetica-Medium" for="departaments" value="Search"></input>
+                    <select>
+                        <option value="Category">Category</option>
+                        <option value="Adventure">Adventure</option>
+                        <option value="Puzzle">Puzzle</option>
+                        <option value="Strategy">Strategy</option>
+                    </select>
+                    <input class="graylightColor fontHelvetica-Light" for="departaments" value="What do you search for?"></input>
+                    <input class="graylightColor fontHelvetica-Light" for="departaments" value="Search"></input>
+                    <button class="btn-search backgroundGrayDark graylightColor fontHelvetica-Medium" type="submit"><a href="search.html">Search</a></button>
+                </form>
+            </section>
+            <section class="main-search-mobile backgroundPink">
+                <div class="main-tittle">
+                    <h1 class="fontGotham-Bold whitecolor">FAST FUN</h1>
+                    <p class="fontHelvetica-Medium whitecolor fonteSize18">Buying and Selling Couldn't be Simpler than this !</p>
+                </div>
+                <form class="departament-mobile">
+                    <input class="graylightColor fontHelvetica-Light" for="departaments" value="What do you search for?"></input><br>
+                    <input class="graylightColor fontHelvetica-Light" for="departaments" value="Search"></input><br>
                     <button class="btn-search backgroundGrayDark graylightColor fontHelvetica-Medium" type="submit"><a href="search.html">Search</a></button>
                 </form>
             </section>

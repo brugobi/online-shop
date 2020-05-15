@@ -332,7 +332,7 @@ i.fa-plus {
   align-self: center;
   font-size: 50px;
   padding-left: 30px;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .search-tittle p {
@@ -347,6 +347,11 @@ i.fa-plus {
   flex-flow: column;
   justify-content: center;
   height: 260px;
+  
+}
+
+.main-search-mobile {
+  display: none;
 }
 
 .search-tittle p {
@@ -362,6 +367,10 @@ i.fa-plus {
 
 .fontSize14 {
   font-size: 15px;
+}
+
+.aside-menu {
+  display: flex;
 }
 
 .asideForm {
@@ -435,6 +444,7 @@ div.card-game-information:hover {
   padding: 2px;
 }
 
+
 /* ###############################################-----MEDIA QUERY----############################################### */
 
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
@@ -448,5 +458,37 @@ div.card-game-information:hover {
   .header-dark-desktop {
     display: none;
   }
+
+  .main-search-mobile {
+    background-image: url(../images/backgroungImg.png);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 400px;
+  }
+
+  .main-search-mobile form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+
+  .departament-mobile input {
+    width: 500px;
+  }
+
+  .main-search2 {
+    display: none;
+  }
+
+  .main-search {
+    display: none;
+  }
+
+  
+
 }
 

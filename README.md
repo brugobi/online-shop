@@ -6,17 +6,15 @@ This project is about building a webpage based on an online shop for electronics
 - mobile: up to 768px
 - tablet & desktop: from 768px
 
-- desktop version
+## desktop version (main page and search page)
 
-![screenshot](./assets/imgs/desktop.png)
+![screenshot](./assets/images/desktop-main.png)
+![screenshot](./assets/images/desktop-search.png)
 
-- mobile version (medium screen): tablet
+## mobile version (main page and search page)
 
-![screenshot](./assets/imgs/Ipad.png)
-
-- mobile version version (small screen): cell phone
-
-![screenshot](./assets/imgs/mobilephone.png)
+![screenshot](./assets/imgages/mobile-main.png)
+![screenshot](./assets/images/mobile-search.png)
 
 ## Built With
 

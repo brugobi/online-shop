@@ -117,10 +117,6 @@
   display: none;
 }
 
-.header-dark-mobile button {
-  height: 30px;
-}
-
 .main-search {
   background-image: url(../images/backgroungImg.png);
   display: flex;
@@ -271,7 +267,6 @@ i.fa-plus {
 }
 
 .footer1 {
-  display: flex;
   flex-direction: row;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -318,6 +313,14 @@ i.fa-plus {
 }
 
 /* ###############################################-----SEARCH PAGE----############################################### */
+
+.category-display-flex {
+  display: flex;
+}
+
+.category-display-none {
+  display: none;
+}
 
 .home {
   text-decoration: none;
@@ -395,7 +398,6 @@ i.fa-plus {
 }
 
 .card-game-information {
-  max-width: 1200px;
   padding-left: 30px;
   background-color: rgb(245, 245, 245);
 }
@@ -439,8 +441,24 @@ div.card-game-information:hover {
   margin-left: 2.5%;
 }
 
+.categories-search-mobile {
+  width: 33.3%;
+  margin-left: 2.5%;
+}
+
+.navigation-mobile {
+  width: 33.3%;
+  margin-left: 2.5%;
+}
+
 .canada {
   width: 139px;
+  height: 29px;
+  border: solid 1px #888;
+  padding: 2px;
+}
+
+.canada-mobile {
   height: 29px;
   border: solid 1px #888;
   padding: 2px;
@@ -457,6 +475,11 @@ div.card-game-information:hover {
   padding-left: 15px;
 }
 
+.card-img {
+  width: 350px;
+  height: 350px;
+}
+
 /* ###############################################-----MEDIA QUERY----############################################### */
 
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
@@ -464,7 +487,10 @@ div.card-game-information:hover {
 @media (max-width: 767px) {
   .header-dark-mobile {
     display: flex;
-    height: 50px;
+    justify-content: center;
+    padding-top: 90px;
+    font-size: 25px;
+    height: 200px;
   }
 
   .header-dark-desktop {
@@ -476,20 +502,31 @@ div.card-game-information:hover {
     display: flex;
     flex-flow: column;
     justify-content: center;
-    height: 400px;
+    height: 900px;
   }
 
   .main-search-mobile form {
     display: flex;
     flex-direction: column;
-    width: 500px;
     align-items: center;
     margin: 0 auto;
     padding-bottom: 20px;
   }
 
+  .header-dark-left {
+    display: flex;
+    justify-content: space-around;
+    font-size: 70px;
+  }
+
   .departament-mobile input {
-    width: 500px;
+    width: 1000px;
+    height: 180px;
+    font-size: 80px;
+  }
+
+  .departament-mobile a {
+    font-size: 60px;
   }
 
   .main-search2 {
@@ -498,5 +535,86 @@ div.card-game-information:hover {
 
   .main-search {
     display: none;
+  }
+
+  .main-tittle {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-items: center;
+    margin: auto 0;
+  }
+  
+  .main-tittle h1 {
+    align-self: center;
+    font-size: 120px;
+  }
+  
+  .main-tittle p {
+    align-self: center;
+    font-size: 50px;
+  }
+  
+  .btn-search {
+    width: 380px;
+    height: 90px;
+    padding-left: 70px;
+    border: solid 1px #383838;
+  }
+
+  .card-img {
+    width: 850px;
+    height: 850px;
+  }
+
+  .card-body {
+    width: 1000px;
+    height: 900px;
+    padding-left: 100px;
+  }
+
+  .card-body h5, h6, p, button {
+    font-size: 50px;
+  }
+
+  .card-body button {
+    width: 100px;
+  }
+
+  .asideForm {
+    display: none;
+  }
+
+  .card-game-information {
+    padding-left: 100px;
+    padding-right: 30px;
+    width: 1400px;
+  }
+
+  .number {
+    width: 80px;
+    height: 80px;
+    padding-left: 8px;
+    margin-right: 10px;
+    font-size: 60px;
+  }
+
+  .category-display-flex-mobile {
+    display: flex;
+  }
+  
+  .category-display-none-mobile {
+    display: none;
+  }
+
+  .footer-mobile {
+    width: 1400px;
+    margin-top: 20px;
+  }
+
+  .copyRight p {
+    width: 1400px;
+    padding-left: 50px;
+    font-size: 40px;
   }
 }

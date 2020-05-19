@@ -198,7 +198,6 @@
 
 .ads-container {
   margin-top: 20px;
-  width: 1400px;
 }
 
 .iconSize {
@@ -248,11 +247,6 @@ i.fa-plus {
   border-bottom: solid 1px #888;
   padding-bottom: 5px;
   background-color: #d35266;
-}
-
-.footer {
-  width: 1400px;
-  padding-left: 10px;
 }
 
 .footer-left {

@@ -497,7 +497,7 @@ div.card-game-information:hover {
   .header-dark-mobile {
     display: flex;
     justify-content: center;
-    height: 80px;
+    height: 70px;
   }
 
   .header-dark-desktop {
@@ -522,8 +522,8 @@ div.card-game-information:hover {
 
   .header-dark-left {
     display: flex;
-    justify-content: space-around;
-    font-size: 30px;
+    font-size: 17px;
+    padding-top: 25px;
   }
 
   .departament-mobile input {

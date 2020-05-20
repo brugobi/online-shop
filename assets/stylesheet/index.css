@@ -213,6 +213,14 @@
   padding: 10px;
 }
 
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0; 
+  margin-left: 0; 
+}
 .card-container {
   height: 410px;
   border: solid 1px #888;
@@ -251,7 +259,7 @@ i.fa-plus {
 }
 
 .footer {
-  max-width: 1400px;
+  width: 1400px;
 }
 
 .footer-left {
@@ -611,6 +619,11 @@ div.card-game-information:hover {
     display: none;
   }
 
+  .categories-items {
+    line-height: 1px;
+    width: 100px;
+  }
+
   .footer-mobile {
     width: 100%;
     margin-top: 20px;
@@ -638,9 +651,16 @@ div.card-game-information:hover {
     font-size: 15px;
   }
 
+  .categories-tittle {
+    border-bottom: solid 1px #d35266;
+    font-size: 10px;
+
+  }
+
   .footer-text-mobile {
     flex-direction: column;
     justify-content: center;
+    padding-left: 10px;
   }
 
   .footer-text-mobile p, h1 {

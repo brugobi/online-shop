@@ -91,6 +91,7 @@
 .header-dark-desktop {
   display: flex;
   height: 50px;
+  font-size: 16px;
 }
 
 .header-dark-desktop div {
@@ -638,10 +639,6 @@ div.card-game-information:hover {
     max-height: 800px;
   }
 
-  .card-body {
-    
-  }
-
   .card-body button {
     max-width: 490px;
     margin-top: 10px;
@@ -654,7 +651,6 @@ div.card-game-information:hover {
   .categories-tittle {
     border-bottom: solid 1px #d35266;
     font-size: 10px;
-
   }
 
   .footer-text-mobile {
@@ -673,5 +669,15 @@ div.card-game-information:hover {
 
   .fonteSize18 {
     font-size: 15px;
+  }
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+
+@media (max-width: 1024px) {
+  .header-dark-desktop {
+    display: flex;
+    height: 50px;
+    font-size: 12px;
   }
 }

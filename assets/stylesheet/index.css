@@ -1,0 +1,756 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  max-width: 1440px;
+}
+
+@font-face {
+  font-family: "Gotham Bold";
+  src: url(../stylesheet/fonts/gotham-bold.otf);
+}
+
+@font-face {
+  font-family: "Gotham Round";
+  src: url(../stylesheet/fonts/gotham-rounded-light.otf);
+}
+
+@font-face {
+  font-family: "Helvetica Light";
+  src: url(../stylesheet/fonts/helvetica-neue-light.ttf);
+}
+
+@font-face {
+  font-family: "Helvetica Medium";
+  src: url(../stylesheet/fonts/helveticaneue-medium.ttf);
+}
+
+@font-face {
+  font-family: "Helvetica Bold";
+  src: url(../stylesheet/fonts/helvetica-neue-bold.ttf);
+}
+
+.backgroundGrayDark {
+  background-color: #383838;
+}
+
+.pinkcolor {
+  color: #d35266;
+}
+
+.backgroundPink {
+  background-color: #d35266;
+}
+
+.graylightColor {
+  color: #888;
+}
+
+.grayDarkColor {
+  color: #383838;
+}
+
+.whitecolor {
+  color: white;
+}
+
+.backgrounWhite {
+  background-color: white;
+}
+
+.fontGotham-Bold {
+  font-family: "Gotham Bold", Arial, Helvetica, sans-serif;
+}
+
+.fontGotham-Round {
+  font-family: "Gotham Round", Arial, Helvetica, sans-serif;
+}
+
+.fontHelvetica-Light {
+  font-family: "Helvetica Light", Arial, Helvetica, sans-serif;
+}
+
+.fontHelvetica-Medium {
+  font-family: "Helvetica Medium", Arial, Helvetica, sans-serif;
+}
+
+.fontHelvetica-Bold {
+  font-family: "Helvetica Bold", Arial, Helvetica, sans-serif;
+}
+
+.btn-post-ad {
+  border: solid 1px #d35266;
+  border-radius: 2px;
+}
+
+.header-dark-desktop {
+  display: flex;
+  height: 50px;
+  font-size: 16px;
+}
+
+.header-dark-desktop div {
+  align-self: center;
+}
+
+.header-dark-left {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.header-dark-right {
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+}
+
+.icon {
+  padding-left: 5px;
+}
+
+.header-dark-mobile {
+  display: none;
+}
+
+.main-search {
+  background-image: url(../images/backgroungImg.png);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 360px;
+  width: 100%;
+}
+
+.departament {
+  display: flex;
+  justify-content: center;
+  margin-bottom: auto;
+}
+
+.departament input {
+  max-width: 240px;
+}
+
+.departament a {
+  text-decoration: none;
+  color: #888;
+}
+
+.icon-less a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #d35266;
+  font-size: 40px;
+  background-color: black;
+}
+
+.departament a:hover {
+  color: #d35266;
+}
+
+.main-tittle {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-items: center;
+  margin: auto 0;
+}
+
+.main-tittle h1 {
+  align-self: center;
+  font-size: 90px;
+}
+
+.main-tittle p {
+  align-self: center;
+}
+
+.btn-search {
+  width: 80px;
+  height: 35px;
+  margin-left: 15px;
+  padding-left: 10px;
+  padding-top: 5px;
+  border: solid 1px #383838;
+}
+
+.btn-hot-price {
+  width: 50px;
+}
+
+.btn-hot-list {
+  width: 180px;
+}
+
+.icon-less {
+  height: 298px;
+  width: 43px;
+}
+
+.ads-card {
+  max-width: 1000px;
+}
+
+.ads-container {
+  margin-top: 20px;
+}
+
+.iconSize {
+  font-size: 25px;
+}
+
+.fonteSize18 {
+  font-size: 18px;
+}
+
+.game-information {
+  padding: 10px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.card-container {
+  height: 410px;
+  border: solid 1px #888;
+  background-color: white;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+.products {
+  background-color: rgb(244, 244, 244);
+  padding-top: 50px;
+}
+
+.game-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+i.fa-plus {
+  border: solid 1px;
+  width: 25px;
+  height: 25px;
+  padding: 3px;
+}
+
+.section-games {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-header {
+  border-bottom: solid 1px #888;
+  padding-bottom: 5px;
+  background-color: #d35266;
+}
+
+.footer {
+  width: 1400px;
+}
+
+.footer-left {
+  width: 70%;
+}
+
+.footer-right {
+  width: 30%;
+}
+
+.categories-tittle {
+  border-bottom: solid 1px #d35266;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 33%;
+}
+
+.footer-text p {
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.categories-items {
+  width: 50%;
+  padding-top: 5px;
+}
+
+.categories p {
+  line-height: 1px;
+}
+
+.borderGray {
+  border-top: solid 1px #888;
+}
+
+.borderRightGray {
+  border-right: solid 1px #888;
+}
+
+.copyRight p {
+  display: flex;
+  padding-top: 10px;
+  align-self: center;
+  justify-content: space-around;
+}
+
+.fontSize13 {
+  font-size: 12px;
+}
+
+/* ###############################################-----SEARCH PAGE----############################################### */
+
+.category-display-flex {
+  display: flex;
+}
+
+.category-display-none {
+  display: none;
+}
+
+.home {
+  text-decoration: none;
+  color: #888;
+}
+
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.home:hover {
+  color: #d35266;
+}
+
+.search-tittle h1 {
+  align-self: center;
+  font-size: 50px;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+
+.search-tittle p {
+  align-self: flex-start;
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.main-search2 {
+  background-image: url(../images/backgroungImg.png);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 260px;
+}
+
+.main-search-mobile {
+  display: none;
+}
+
+.departament2 {
+  display: flex;
+  align-self: flex-start;
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+.fontSize14 {
+  font-size: 15px;
+}
+
+.aside-menu {
+  display: flex;
+}
+
+.asideForm {
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 210px;
+  border-right: solid 1px #888;
+  background-color: rgb(244, 244, 244);
+}
+
+.asideForm p {
+  border-bottom: solid 1px #888;
+  padding-top: 5px;
+}
+
+.card-game {
+  padding-left: 30px;
+  padding-top: 20px;
+  background-color: rgb(245, 245, 245);
+}
+
+.card-game-information {
+  padding-left: 30px;
+  background-color: rgb(245, 245, 245);
+}
+
+div.card-game-information:hover {
+  background-color: white;
+}
+
+.numbers-of-page {
+  background-color: rgb(244, 244, 244);
+  height: 120px;
+}
+
+.numbers-of-page span:hover {
+  background-color: #d35266;
+}
+
+.number {
+  width: 30px;
+  height: 30px;
+  border: solid 1px #888;
+  padding-left: 8px;
+  margin-right: 10px;
+}
+
+.footer-text-search {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.navigation {
+  width: 15%;
+  margin-left: 2.5%;
+}
+
+.categories-search {
+  width: 25%;
+  margin-left: 2.5%;
+}
+
+.categories-search-mobile {
+  width: 33.3%;
+  margin-left: 2.5%;
+}
+
+.navigation-mobile {
+  width: 33.3%;
+  margin-left: 2.5%;
+}
+
+.canada {
+  width: 139px;
+  height: 29px;
+  border: solid 1px #888;
+  padding: 2px;
+}
+
+.canada-mobile {
+  height: 29px;
+  border: solid 1px #888;
+  padding: 2px;
+}
+
+.card {
+  position: static;
+}
+
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
+  position: static;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.card-img {
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.card-img-top {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+/* ###############################################-----MEDIA QUERY----############################################### */
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+
+@media (max-width: 767px) {
+  .header-dark-mobile {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+  }
+
+  .header-dark-desktop {
+    display: none;
+  }
+
+  .main-search-mobile {
+    background-image: url(../images/backgroungImg.png);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 400px;
+  }
+
+  .main-search-mobile form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+
+  .header-dark-left {
+    display: flex;
+    font-size: 17px;
+    padding-top: 25px;
+  }
+
+  .departament-mobile input {
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+  }
+
+  .departament-mobile a {
+    font-size: 15px;
+    padding-left: 20px;
+  }
+
+  .main-search2 {
+    display: none;
+  }
+
+  .main-search {
+    display: none;
+  }
+
+  .main-tittle {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-items: center;
+    margin: auto 0;
+  }
+
+  .footer-text-mobile p,
+  h1 {
+    font-size: 10px;
+  }
+  
+  .main-tittle h1 {
+    align-self: center;
+    font-size: 50px;
+  }
+
+  .main-tittle p {
+    align-self: center;
+    font-size: 15px;
+  }
+
+  .btn-search {
+    width: 100px;
+    height: 35px;
+    border: solid 1px #383838;
+  }
+
+  .card-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .card-body {
+    width: 300px;
+    height: 200px;
+  }
+
+  .card-body h5,
+  h6,
+  button {
+    font-size: 15px;
+  }
+
+  .card-body p {
+    font-size: 10px;
+  }
+
+  .asideForm {
+    display: none;
+  }
+
+  .card-game-information {
+    height: 500px;
+  }
+
+  .number {
+    width: 40px;
+    height: 40px;
+    padding-left: 13px;
+    padding-top: 10px;
+    font-size: 15px;
+  }
+
+  .category-display-flex-mobile {
+    display: flex;
+  }
+
+  .category-display-none-mobile {
+    display: none;
+  }
+
+  .categories-items {
+    line-height: 1px;
+    width: 100px;
+  }
+
+  .footer-mobile {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .copyRight p {
+    font-size: 10px;
+  }
+
+  .card-img-top {
+    max-width: 800px;
+    max-height: 800px;
+  }
+
+  .card-body button {
+    max-width: 490px;
+    margin-top: 10px;
+  }
+
+  .card-text {
+    font-size: 15px;
+  }
+
+  .categories-tittle {
+    border-bottom: solid 1px #d35266;
+    font-size: 10px;
+  }
+
+  .footer-text-mobile {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+  }
+
+  .iconSize {
+    font-size: 20px;
+  }
+
+  .fonteSize18 {
+    font-size: 15px;
+  }
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header-dark-desktop {
+    display: flex;
+    height: 50px;
+    font-size: 12px;
+  }
+}

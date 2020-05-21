@@ -6,15 +6,17 @@ This project is about building a webpage based on an online shop for electronics
 - mobile: up to 768px
 - tablet & desktop: from 768px
 
-## desktop version (main page and search page)
+## desktop version (main page)
 
 ![screenshot](./assets/images/desktop-main.png)
-![screenshot](./assets/images/desktop-search.png)
 
-## mobile version (main page and search page)
+## mobile version-tablet (search page)
 
-![screenshot](./assets/images/mobile-main.png)
-![screenshot](./assets/images/mobile-search.png)
+![screenshot](./assets/images/tablet-search.png)
+
+## mobile version-phone (main page)
+
+![screenshot](./assets/images/phone-main.png)
 
 ## Built With
 
@@ -37,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Usage
 
-- Any Brownser
+- Any Browser
 
 ## Author
 

@@ -261,7 +261,7 @@ i.fa-plus {
 }
 
 .footer {
-  width: 1400px;
+  max-width: 1400px;
 }
 
 .footer-left {

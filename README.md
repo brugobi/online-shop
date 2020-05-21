@@ -26,7 +26,7 @@ This project is about building a webpage based on an online shop for electronics
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/brugobi/online-shop/shop-feature/index.html)
+[Live Demo Link](https://raw.githack.com/brugobi/online-shop/master/index.html)
 
 
 ## Getting Started
